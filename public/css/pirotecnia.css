@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #10205B;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+	color: #221D1D;
+}
+
+div.content{
+	background: rgba(0,0,0,.3);
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px 20px;
+}
+
+h1{
+	margin: 0px;
+	margin-bottom: 15px;
+	color: #72B3C4;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.cleaner{
+	clear: both;
+}
+
+h1 c{
+	font-size: 32px;
+}
+
+a#map{
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../images/ramon-garibay/map.png');
+	display: inline-block;
+	height: 500px;
+	width: 700px;
+	position: relative;
+	left: 50%;
+	margin-left: -350px;
+	cursor: pointer;
+}
+
+table th, td{
+	color: #72B3C4;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+table td{
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+input.button{
+	border: solid 2px #72B3C4;
+	border-radius: 5px;
+	height: 30px;
+	width: 120px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: rgba(0,0,0,.3);
+	color: #72B3C4;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+input:focus{
+	outline: none;
+}
+
+input.button.close{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+div.background-curtain {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .9);
+	z-index: 1000;
+	display: none;
+}
+
+div.interactive-image{
+	height: 90%;
+	width: 100%;
+	
+}
+
+a.map-thumb{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 30px;
+	height: 377px;
+	width: 240px;
+	background-position: center center;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+}
+
+div.items-list{
+	height: 200px;
+	width: 310px;
+	margin-bottom: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.items-list h3,p {
+	color: #FFFFFF;
+	margin: 0px;
+}
